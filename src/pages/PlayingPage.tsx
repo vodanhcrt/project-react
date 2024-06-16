@@ -50,7 +50,7 @@ const PlayingPage = () => {
             <div className="heading">
                 <h2 className="heading-title">Now Playing</h2>
             </div>
-            { isLoading && (<div>Loading...</div>)}
+          
             { isError && (<div>{ error.message}</div>)}
             <div className="grid grid-cols-4 lg:grid-cols-2 md:grid-cols-1 gap-[15px]">
             {

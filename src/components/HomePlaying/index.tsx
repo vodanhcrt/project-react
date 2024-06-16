@@ -20,7 +20,7 @@ const HomePlaying = () => {
         <div className="heading">
             <h2 className="heading-title">Now Playing</h2>
         </div>
-        { isLoading && (<div>Loading...</div>) }
+        
         { error && (<div>{ error }</div>) }
         <Swiper
         className='popular-content'
