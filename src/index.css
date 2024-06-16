@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:where(.css-dev-only-do-not-override-zg0ahe).ant-pagination .ant-pagination-item a,
+:where(.css-dev-only-do-not-override-zg0ahe).ant-pagination .ant-pagination-prev .ant-pagination-item-link, :where(.css-dev-only-do-not-override-zg0ahe).ant-pagination .ant-pagination-next .ant-pagination-item-link,
+:where(.css-dev-only-do-not-override-zg0ahe).ant-pagination .ant-pagination-jump-prev .ant-pagination-item-container .ant-pagination-item-ellipsis, :where(.css-dev-only-do-not-override-zg0ahe).ant-pagination .ant-pagination-jump-next .ant-pagination-item-container .ant-pagination-item-ellipsis{
+    color: #fff;
+}
+:where(.css-dev-only-do-not-override-zg0ahe).ant-pagination .ant-pagination-item-active a{
+    color: #000;
+}
